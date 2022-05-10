@@ -7,7 +7,7 @@ export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance
     const imagePath = `/assets/${id}.jpg`;
   
     return (
-        <Link to={`/hero/${id}`} className="my-card">
+        <Link to={`/hero/${id}`} className="my-card animate__animated animate__fadeIn">
         <img src={ imagePath } className="img img-responsive" alt={superhero}/>
         <div className="profile-name">{superhero}</div>
         <div className="profile-position">{alter_ego}</div>
