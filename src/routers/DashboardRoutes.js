@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom"
-import { Navbar } from "../ui/NavBar"
+import { Navbar } from "../components/ui/NavBar"
 
-import { DcScreen } from "../dc/DcScreen"
-import { Hero } from "../hero/Hero"
-import { MarvelScreen } from "../marvel/MarvelScreen"
-import { SearchScreen } from "../search/SearchScreen"
+import { DcScreen } from "../components/dc/DcScreen"
+import { Hero } from "../components/hero/Hero"
+import { MarvelScreen } from "../components/marvel/MarvelScreen"
+import { SearchScreen } from "../components/search/SearchScreen"
 
 export const DashboardRoutes = () => {
   return (
